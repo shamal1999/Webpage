@@ -1,0 +1,179 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+font-family:verdana, sans-serif;
+}
+
+
+video#bgvid{
+position:absolute
+min-width:100%;
+height:100vh;
+top:0;
+left:0;
+
+}
+.content{
+position:absolute;
+width:100%;
+min-height:100%;
+z-index:1000;
+background-color:rgba(0,0,0,0.7);
+
+}
+
+.text{
+	width:30%;
+	height:100%;
+	color:white
+}
+
+.text p{
+	font-family:verdana;
+	font-size:18px;
+}
+h4{
+	font-family:verdana;
+	font-size:30px;
+	color:white;
+}
+#image{
+	position: absolute;
+    top: 8px;
+    right:20px;
+	
+}
+
+#link{
+	border-left: 6px solid blue;
+    background-color: transparent;
+}
+
+a{
+	font-family:verdana;
+	font-size:12px;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#video{
+	position:absolute;
+	top:500px;
+	left:20px;
+}
+.down-arrow {
+	display: inline-block;
+	position: absolute;
+	top:440px;
+	left:46%;
+	background: darkcyan;
+	padding: 10px 0;
+	width: 100px;
+	text-align: center;
+}
+.down-arrow:after {
+	content: '';
+	display: block;  
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 0;
+	height: 0;
+	border-top: 25px solid darkcyan;
+	border-right: 50px solid transparent;
+	border-bottom: 0 solid transparent;
+	border-left: 50px solid transparent;
+}
+a{
+	color:white;
+	font-size:16px;
+}
+.text2 {
+    width:100%;
+	position: absolute;
+	top:300px;
+	text-align: center;
+	color:white;
+}
+.text2 h1{
+    font-size:65px;
+	color:#fff;
+	font-family:verdana, sans-serif;;
+}
+.text2 p{
+    font-size:20px;
+	color:#aaa;
+	font-family:verdana, sans-serif;
+	letter-spacing:3px;
+}
+#nav {
+ font: 12px/30px Helvetica, sans-serif;
+ text-align: center;
+}
+ 
+#nav a {
+ background: #444;
+ color: #fff;
+ margin-right: 30px;
+ width: 100px;
+ height: 30px;
+ float: left;
+ text-decoration: none;
+ -webkit-transition: all 0.5s ease;
+}
+ 
+#nav a:hover {
+ background: #6fcbf3;
+}
+.htext{
+	 width:90%;
+	 color:white;
+	 position:absolute;
+	 left:20px;
+}
+.ctext{
+	 width:90%;
+	 color:white;
+	 position:absolute;
+	 left:20px;
+}
+#cvideo{
+	 position:absolute;
+	 top:440px;
+	 left:20px;
+}
+.text{
+	position:absolute;
+	left:20px;
+}
+html {
+    /*If you had a black or close to black background*/
+    background-color: #000000;
+}
+#hvideo{
+	 position:absolute;
+	 top:580px;
+	 left:20px;
+}
+
+

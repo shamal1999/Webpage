@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="animate.css">
+<meta charset="UTF-8">
+<title>Culture</title>
+
+</head>
+<body>
+<a id="top"></a>
+<div id="nav">
+ <a href="index.html"class="transition">Home</a>
+ <a href="culture.html"class="transition">Culture</a>
+ <a href="history.html"class="transition">History</a>
+ <a href="gallary.html"class="transition">Gallary</a>
+</div>
+<video id="bgvid" preload="auto" autoplay="true" loop="loop" muted="muted">
+<source src="C:\Users\shamal.gomes\Desktop\About me\Sri Lankan Culture (online-video-cutter.com).mp4" type="video/mp4"/>
+</video>
+
+<div class="text2">
+<h1>Cultures<h1>
+<p>The Diverse Cultures In Sri Lanka</p>
+</div>
+<div class="down-arrow">
+<a href="#jump">Read More</a>
+</div>
+
+<div class="content">
+
+<div class="container wow lightSpeedIn animated"data-wow-delay="1s">
+<a id="jump"></a>
+<div class="ctext"><br><br>
+<h4>The Amazing Cultures In Sri Lanka</h4><br>
+<p>The culture of Sri Lanka mixes modern elements with traditional aspects and is known for its regional diversity. Sri Lankan culture has long been influenced by the heritage of Theravada Buddhism passed on from India, and the religion's legacy is particularly strong in Sri Lanka's southern and central regions. South Indian cultural influences are especially pronounced in the northernmost reaches of the country. The history of colonial occupation has also left a mark on Sri Lanka's identity, with Portuguese, Dutch, and British elements having intermingled with various traditional facets of Sri Lankan culture. Due to Sri Lanka's prominence as an ancient trading hub, cultural influences ranging from East Asia to the Middle East have shaped the island, particularly that of the Sinhalese people.
+</p><br>
+<p>The country has a rich artistic tradition, with distinct creative forms that encompass music, dance, and the visual arts. Sri Lankan culture is internationally associated with cricket, a distinct cuisine, an indigenous holistic medicine practice, religious iconography such as the Buddhist flag, and exports such as tea, cinnamon, and gemstones, as well as a robust tourism industry. Sri Lanka has longstanding ties with the Indian subcontinent that can be traced back to prehistory. Sri Lanka's current population is predominantly Sinhalese with sizable Sri Lankan Moor, Sri Lankan Tamil, and Indian Tamil minorities.
+</p>
+<p>Sri Lanka is an island in the Indian Ocean off the southeast tip of India, and is about half the size of Alabama. Most of the land is flat and rolling,with mountains in the south-central region rise to over 8,000 ft (2,438 m).</p>
+<br><p> For more informtion <a href="https://en.wikipedia.org/wiki/Culture_of_Sri_Lanka" target="_blank">click here</a>
+<br><br>
+<p><a href="#top">Back To Top</a></p>
+</div>
+</div>
+
+ <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+<div id = "cvideo">
+<div class= "wow lightSpeedIn animated"data-wow-delay="1s">
+<div class= "wow pulse animated" data-wow-delay="2s">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AtkmTw14hq8" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("body").css("display", "none");
+ 
+    $("body").fadeIn(2000);
+ 
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(1000, redirectPage);      
+    });
+         
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});
+</script>
+</body>
+</html>

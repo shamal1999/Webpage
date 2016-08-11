@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="animate.css">
+<title>History Of Sri Lanka</title>
+</head>
+<body>
+<a id="top"></a>
+<div id="nav">
+ <a href="index.html"class="transition">Home</a>
+ <a href="culture.html"class="transition">Culture</a>
+ <a href="history.html"class="transition">History</a>
+ <a href="gallary.html"class="transition">Gallary</a>
+</div>
+<video id="bgvid" preload="auto" autoplay="true" loop="loop" muted="muted">
+<source src="C:\Users\shamal.gomes\Desktop\About me\Heritage of Sri Lanka (online-video-cutter.com).mp4" type="video/mp4"/>
+</video>
+
+<div class="text2">
+<h1>History<h1>
+<p>The great histoty of Sri Lanka</p>
+</div>
+<div class="down-arrow">
+<a href="#jump">Read More</a>
+</div>
+
+<div class="content">
+
+<div class="container wow rollIn animated"data-wow-delay="1s">
+<a id="jump"></a>
+<div class="htext"><br><br>
+<h4>The Breif History Of Sri Lanka</h4><br>
+<p>The earliest human remains found on the island of Sri Lanka date to about 34,000 years ago.</p>
+<p>The proto-historical period begins roughly in the 4th century, based on chronicles like the Mahawansa, Dipavamsa, Silappatikaram, Manimekalai and the Culavamsa. The earliest documents of settlement in the Island are found in these chronicles. These chronicles cover the period since the establishment of the Kingdom of Tambapanni in the 6th century BC. The first Sri Lankan ruler of the Anuradhapura Kingdom, Pandukabhaya, is recorded for the 4th century BC. Buddhism was introduced in the 3rd century BC by Arhath Mahinda (son of the Indian emperor Ashoka the Great). The first Tamil ruler of the Anuradhapura Kingdom, Elara, an invader, is recorded for the 2nd century BC.
+</p><br>
+<p>The island was divided into numerous kingdoms over the following centuries, intermittently (between AD 993 to AD 1077) united under Chola rule. Sri Lanka was ruled by 181 monarchs from the Anuradhapura to Kandy periods.From the 16th century, some coastal areas of the country were also controlled by the Portuguese, Dutch and British. Between 1597 and 1658, a substantial part of the island was under Portuguese rule. The Portuguese lost their possessions in Ceylon due to Dutch intervention in the Eighty Years' War. Following the Kandyan Wars, the island was united under British rule in 1815. Armed uprisings against the British took place in the 1818 Uva Rebellion and the 1848 Matale Rebellion. Independence was finally granted in 1948 but the country remained a Dominion of the British Empire until 1972.
+</p><br>
+<p>In 1972 Sri Lanka assumed the status of a Republic. A constitution was introduced in 1978 which made the Executive President the head of state. The Sri Lankan Civil War began in 1983, including an armed youth uprising in 1987 to 1989, with the 25-year-long civil war ending in 2009.
+</p><br>
+<p>Sri Lanka is an island in the Indian Ocean off the southeast tip of India, and is about half the size of Alabama. Most of the land is flat and rolling,with mountains in the south-central region rise to over 8,000 ft (2,438 m).</p>
+<br><br>
+<p><a href="#top">Back To Top</a></p>
+</div>
+</div>
+<div id = "hvideo">
+<div class= "wow bounceInUp animated" data-wow-delay="1s">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/2V96N0WTaiw" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+
+
+ <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("body").css("display", "none");
+ 
+    $("body").fadeIn(2000);
+ 
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(1000, redirectPage);      
+    });
+         
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});
+</script>
+
+</body>
+</html>
